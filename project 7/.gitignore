@@ -1,0 +1,78 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+myenv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Vector database and storage
+chroma_langchain_db/
+TSHIRT_DOCSTORE/
+*.sqlite3
+
+# Output and result directories
+result/
+result_pant/
+dataset_output/
+tshirt_output/
+pant_output/
+pant_resized_output/
+
+# Large datasets (uncomment if you want to exclude them)
+# tshirt/
+# pant-dataset/
+
+# Logs
+*.log
+*.out
+*.err
+
+# Temporary files
+temp/
+tmp/
+
+# Caches
+*.cache
+*.pytest_cache/
+*.mypy_cache/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python egg files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Streamlit
+.streamlit/
+
+# Backup files
+*.backup
+*.bak
+backup.py
+
+# Research and misc files
+*.txt
+*.zip
